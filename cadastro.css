@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background-color: #e7ebe8;
+  font-family: Arial, sans-serif;
+  color: #26332a;
+}
+
+.pagina {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden; 
+}
+
+/* Lado esquerdo */
+.apresentacao {
+  float: left;
+  width: 45%;
+  min-height: 750px;
+  padding: 50px 35px;
+  box-sizing: border-box;
+  background-color:purple;
+  font-size: 16px;
+}
+
+.apresentacao h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+
+.apresentacao h2 {
+  color: white;
+  font-size: 36px;
+}
+
+.apresentacao p {
+  line-height: 1.6;
+  color: white;
+}
+
+.beneficios {
+  margin-top: 35px;
+  padding: 30px;
+  border: 1px solid black;
+  color: black;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.beneficios h3 {
+  color: white;
+  font-size: 18px;
+}
+
+/* Lado direito */
+.area-cadastro {
+  float: left;
+  width: 55%;
+  min-height: 750px;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.area-cadastro h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.area-cadastro p {
+  color: #777777;
+}
+
+/* Formulário */
+form {
+  margin-top: 25px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 90%;
+  padding: 11px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 90%;
+  padding: 11px;
+  margin-top: 20px;
+  background-color: rgb(230, 176, 227);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+.login {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login a {
+  color: purple;
+  font-weight: bold;
+}
